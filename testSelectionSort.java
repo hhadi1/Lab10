@@ -59,6 +59,7 @@ public testSelectionSort() {
 	     assertArrayEquals(Sortedarr, selectionSort.basicSelectionSort(arr));
 		
 	}
+    @Test
 public void testMixed(){
 		// TODO Auto-generated method stub
 		int[] arr = new int[5];
@@ -78,6 +79,7 @@ public void testMixed(){
 	     assertArrayEquals(Sortedarr, selectionSort.basicSelectionSort(arr));
 		
 	}
+    @Test
 	public void testDuplicates(){
 		// TODO Auto-generated method stub
 		int[] arr = new int[5];
